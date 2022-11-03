@@ -1,0 +1,36 @@
+img {
+   max-width: 100%;
+   height: auto;
+}
+img.pull-right { margin: 12px 0px 0px 18px; }
+img.pull-left { margin: 12px 18px 0px 0px; }
+
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+.ie .row { width: 1000px ; }
+.narrow .row { max-width: 980px; }
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+.column, .columns {
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+
+.bgrid-sixths [class*="column"]   { width: 16.66667%; }
+.bgrid-quarters [class*="column"] { width: 25%; }
+.bgrid-thirds [class*="column"]   { width: 33.33333%; }
+.bgrid-halves [class*="column"]   { width: 50%; }
+
+[class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+
+.first { clear: left; } 
+.s-first { clear: none; } 
+
+
+
+
+
+
